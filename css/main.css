@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 500;
+    src:
+        url("../fonts/josefin-sans-v24-latin-500.woff2") format("woff2"),
+        url("../fonts/josefin-sans-v24-latin-500.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url("../fonts/josefin-sans-v24-latin-regular.woff2") format("woff2"),
+        url("../fonts/josefin-sans-v24-latin-regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url("../fonts/josefin-sans-v24-latin-700.woff2") format("woff2"),
+        url("../fonts/josefin-sans-v24-latin-700.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Fredoka One";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/fredoka-one-v12-latin-regular.woff2") format("woff2"),
+        url("../fonts/fredoka-one-v12-latin-regular.woff") format("woff");
+}
+
+body {
+    font-family: "Josefin Sans", "sans-serif";
+}
+
+/* HEADER */
+.header {
+    background-color: #222121;
+    padding-bottom: 15px;
+}
+
+.header__logo--link {
+    transition: ease 0.8s;
+}
+
+.site-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.header__navbar--link {
+    font-size: 18px;
+    font-family: "Josefin Sans";
+    font-weight: bold;
+    color: #ffff;
+}
+
+.header__navbar--link:hover {
+    color: #EA4343;
+    /* transition: ease 0.8s; */
+}
+
+.select-lang {
+    width: 85px;
+    height: 30px;
+    background-color: #EA4343;
+    color: #ffffff;
+    outline: none;
+}
+
+.option-eng {
+    background-image: url("../img/gb.png");
+}
+/* ==HEADER */
+
+
+/* HERO */
+.hero-section {
+    margin-top: 20px;
+    padding-top: 25px;
+    background-color: #808080;
+}
+
+.hero__heading {
+    font-family: "Fredoka One";
+    font-weight: 700;
+    margin-top: 150px;
+    /* color: red; */
+}
+
+.hero-img {
+    width: 350px;
+    height: 400px;
+    margin-top: 85px;
+}
+/* ==HERO */
+
+
+.test {
+    padding-top: 45px;
+    background-color: #808080;
+
+}
